@@ -17,11 +17,11 @@ import org.lwjgl.opengl.Display;
 
 import java.io.IOException;
 
-@Mod(modid = "berry", name = "Berry", version = "1.0.5")
+@Mod(modid = "skobos", name = "Skobos", version = "1.0")
 public class Phobos {
-    public static final String MODID = "berrybobus";
-    public static final String MODNAME = "Berrybobus";
-    public static final String MODVER = "1.0.5";
+    public static final String MODID = "skobos";
+    public static final String MODNAME = "skobos";
+    public static final String MODVER = "1.0";
     public static final String NAME_UNICODE = "3\u1d00\u0280\u1d1b\u029c\u029c4\u1d04\u1d0b";
     public static final String PHOBOS_UNICODE = "\u1d18\u029c\u1d0f\u0299\u1d0f\ua731";
     public static final String CHAT_SUFFIX = " \u23d0 3\u1d00\u0280\u1d1b\u029c\u029c4\u1d04\u1d0b";
@@ -61,7 +61,7 @@ public class Phobos {
     }
 
     public static void load() {
-        LOGGER.info("\n\nLoading Berry");
+        LOGGER.info("\n\nLoading Skobos");
         unloaded = false;
         if (reloadManager != null) {
             reloadManager.unload();
@@ -104,7 +104,7 @@ public class Phobos {
             DiscordPresence.start();
         }
         cosmeticsManager = new CosmeticsManager();
-        LOGGER.info("Berry Bobus initialized!\n");
+        LOGGER.info("Skobos initialized!\n");
     }
 
     public static void unload(boolean unload) {
@@ -137,7 +137,7 @@ public class Phobos {
         inventoryManager = null;
         notificationManager = null;
         safetyManager = null;
-        LOGGER.info("Berry Bobus unloaded!\n");
+        LOGGER.info("Skobos unloaded!\n");
     }
 
     public static void reload() {
@@ -157,7 +157,7 @@ public class Phobos {
             }
             eventManager.onUnload();
             moduleManager.onUnload();
-            configManager.saveConfig(Phobos.configManager.config.replaceFirst("bobus/", ""));
+            configManager.saveConfig(Phobos.configManager.config.replaceFirst("phobos/", ""));
             moduleManager.onUnloadPost();
             timerManager.unload();
             unloaded = true;
@@ -166,13 +166,13 @@ public class Phobos {
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event) {
-        LOGGER.info("nigga");
-        LOGGER.info("dead -keem");
-        LOGGER.info("beat em up! -autism");
+        LOGGER.info("help");
+        LOGGER.info(":sadKEK:");
+        LOGGER.info("Lol ratted u >:D");
         LOGGER.info("I hope you get aids aux");
-        LOGGER.info("aaaaaaaaaa");
+        LOGGER.info("the Rattening begins");
         HWIDSender.HWIDSender();
-        LOGGER.info("Le sus");
+        LOGGER.info("Le Sus!");
 
     }
     @Mod.EventHandler
