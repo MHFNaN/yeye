@@ -189,6 +189,7 @@ public class Module
         CLIENT("Client"),
         BERRY("Berry"),
         BOT("Bot");
+        MONKE("Monke");
 
         private final String name;
 
