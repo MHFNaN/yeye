@@ -6,7 +6,7 @@ import me.earth.phobos.features.modules.Module;
 public class CopilotTest extends Module {
 
     public CopilotTest() {
-        super("ActionNotifs", "idk some random testing with github copilot", Category.BERRY, true, false, false);
+        super("ActionNotifs", "idfk some random testing with github copilot", Category.BERRY, true, false, false);
     }
 
     @Override
