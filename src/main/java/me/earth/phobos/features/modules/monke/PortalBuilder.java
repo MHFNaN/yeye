@@ -1,4 +1,4 @@
-package me.earth.phobos.features.modules.berry;
+package me.earth.phobos.features.modules.monke;
 
 import com.mojang.realmsclient.gui.ChatFormatting;
 import me.earth.phobos.util.BlockInteractHelper;
@@ -35,7 +35,7 @@ extends Module {
     boolean sneak = false;
 
     public PortalBuilder() {
-        super("PortalBuilder", "Auto nether portal.", Module.Category.BERRY, true, false, false);
+        super("PortalBuilder", "Auto nether portal.", Module.Category.MONKE, true, false, false);
     }
 
     @Override
