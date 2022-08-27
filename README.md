@@ -1,3 +1,4 @@
-# Berry-Bobus 1.0.5
+# Skobos phobos skid cuz I suck ass at pvp 
 
-LESSSGOOO
+
+Listen here assholes I worked on berry bobus for a while so I can skid this
