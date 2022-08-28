@@ -176,7 +176,6 @@ public class ModuleManager
         this.modules.add(new AutoBuilder());
         this.modules.add(new GamemodeChanger());
         this.modules.add(new Anchor());
-        this.modules.add(new PortalBuilder());
         this.modules.add(new ViewModel());
         this.modules.add(new BallzDuup());
         this.modules.add(new SendMessage());
