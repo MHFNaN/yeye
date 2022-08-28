@@ -35,7 +35,7 @@ extends Module {
     boolean sneak = false;
 
     public PortalBuilder() {
-        super("PortalBuilder", "Auto nether portal.", Module.Category.MONKE, true, false, false);
+        super("PortalBuilder", "Auto nether portal.", Category.MONKE, true, false, false);
     }
 
     @Override
