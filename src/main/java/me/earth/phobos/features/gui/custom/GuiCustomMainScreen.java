@@ -50,12 +50,12 @@ public class GuiCustomMainScreen
     public void initGui() {
         this.x = this.width / 2;
         this.y = this.height / 4 + 48;
-        this.buttonList.add(new TextButton(0, this.x, this.y + 20, "Singleplayer"));
-        this.buttonList.add(new TextButton(1, this.x, this.y + 44, "Multiplayer"));
-        this.buttonList.add(new TextButton(2, this.x, this.y + 66, "Settings"));
-        this.buttonList.add(new TextButton(3, this.x, this.y + 88, "Discord"));
-        this.buttonList.add(new TextButton(4, this.x, this.y + 110, "ClickGui"));
-        this.buttonList.add(new TextButton(5, this.x, this.y + 132, "Exit"));
+        this.buttonList.add(new TextButton(0, this.x, this.y + 20, "SingleUnga"));
+        this.buttonList.add(new TextButton(1, this.x, this.y + 44, "MultiBunga"));
+        this.buttonList.add(new TextButton(2, this.x, this.y + 66, "Configurations"));
+        this.buttonList.add(new TextButton(3, this.x, this.y + 88, "Discordo!"));
+        this.buttonList.add(new TextButton(4, this.x, this.y + 110, "GUI"));
+        this.buttonList.add(new TextButton(5, this.x, this.y + 132, "Leave"));
         GlStateManager.disableTexture2D();
         GlStateManager.enableBlend();
         GlStateManager.disableAlpha();
@@ -80,7 +80,7 @@ public class GuiCustomMainScreen
         } else if(GuiCustomMainScreen.isHovered(this.x, this.y + 88, Phobos.textManager.getStringWidth("Discord"), Phobos.textManager.getFontHeight(), mouseX, mouseY)) {
             try {
                 if (Desktop.isDesktopSupported() && Desktop.getDesktop().isSupported(Desktop.Action.BROWSE)) {
-                    Desktop.getDesktop().browse(new URI("https://discord.gg/msyqrUQ2pc"));
+                    Desktop.getDesktop().browse(new URI("https://discord.gg/u2Xzb5Xv5b"));
                 }
             } catch (Exception ignored) {
             }
@@ -131,7 +131,7 @@ public class GuiCustomMainScreen
                 Phobos.textManager.drawStringWithShadow(this.displayString, (float) this.x - (float) Phobos.textManager.getStringWidth(this.displayString) / 2.0f, this.y, Color.WHITE.getRGB());
                 if (this.hovered) {
                     RenderUtil.drawLine((float) (this.x - 1) - (float) Phobos.textManager.getStringWidth(this.displayString) / 2.0f, this.y + 2 + Phobos.textManager.getFontHeight(), (float) this.x + (float) Phobos.textManager.getStringWidth(this.displayString) / 2.0f + 1.0f, this.y + 2 + Phobos.textManager.getFontHeight(), 1.0f, Color.WHITE.getRGB());
-                    Phobos.textManager.drawStringSmall("BerryBobus on tope!", (float) this.x, (float) this.y - 10, Color.white.getRGB(), false);
+                    Phobos.textManager.drawStringSmall("Fuck u nigga get ratted", (float) this.x, (float) this.y - 10, Color.white.getRGB(), false);
                 }
             }
         }
