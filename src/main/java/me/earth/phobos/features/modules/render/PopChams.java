@@ -56,7 +56,7 @@ class PopChams
 
     public
     PopChams() {
-        super("Bush's PopChams", "Puts chams over ppl popping.", Category.RENDER, true, false, false);
+        super("PopChams", "Shows if a nigga popped.", Category.RENDER, true, false, false);
         this.setInstance();
     }
 
