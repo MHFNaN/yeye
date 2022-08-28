@@ -78,20 +78,20 @@ public class ChatModifier
                 return;
             }
             switch (this.suffix.getValue()) {
-                case BERRY: {
-                    s = s + " | " + "\u0182\u0119\u01A6\u01A6\u01B3\u007C\u0184\u01A1\u0182\u01B0\u0218";
+                case SKOBOS: {
+                    s = s + " | " + "\uA731\u1D0B\u1D52\u0299\u1D52\uA731\uFF01";
                     break;
                 }
-                case LIGMA: {
-                    s = s + " | " + "\u013A\u01D0\u01E5\u1E41\u03AC\u00E7\u00E7";
+                case MONKECC: {
+                    s = s + " | " + "Monke.cc";
                     break;
                 }
-                case PISSFUNGUS: {
-                    s = s + " | " + "\u01A4\u01D0\u0219\u0219\u1E1E\u03B0\u00F1\u011D\u03B0\u0219";
+                case MONKE: {
+                    s = s + " | " + "\u1D0D\u1D0F\u0274\u1D0B\u1D07\uFF01";
                     break;
                 }
-                case RIMMERWARE: {
-                    s = s + " | " + "\u0154\u01D0\u1E41\u1E41\u03AD\u0155\u1E81\u03B1\u0155\u0205";
+                case PENIS: {
+                    s = s + " | " + "\u2605\u5F61\5\u1D18\u1D07\u0274\u026A\uA731\5\u5F61\u2605";
                     break;
                 }
             }
@@ -147,10 +147,10 @@ public class ChatModifier
 
     public enum Suffix {
         NONE,
-        BERRY,
-        LIGMA,
-        PISSFUNGUS,
-        RIMMERWARE
+        SKOBOS,
+        MONKECC,
+        MONKE,
+        PENIS
     }
 }
 
