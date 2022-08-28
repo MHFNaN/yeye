@@ -15,7 +15,7 @@ import java.net.URI;
 
 public class GuiCustomMainScreen
         extends GuiScreen {
-    private final String backgroundURL = "https://www.dictionary.com/e/wp-content/uploads/2018/09/berries_1000x700.jpg";
+    private final String backgroundURL = "https://cdn.discordapp.com/attachments/1011813311043616789/1013232563470479470/IMG_1279.jpg";
     private final ResourceLocation resourceLocation = new ResourceLocation("textures/background.png");
     private int y;
     private int x;
