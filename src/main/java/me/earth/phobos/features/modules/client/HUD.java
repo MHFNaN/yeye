@@ -455,7 +455,7 @@ public class HUD
                 break;
             }
             case LONG: {
-                text = text + "Welcome to Berry-Bobus 1.0.5 " + HUD.mc.player.getDisplayNameString() + " :^)";
+                text = text + "Hello, welcom to the Skobois 1.0 " + HUD.mc.player.getDisplayNameString() + " :^)";
                 break;
             }
             case CUSTOM: {
