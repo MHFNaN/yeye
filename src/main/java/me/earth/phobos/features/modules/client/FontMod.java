@@ -13,7 +13,7 @@ public class FontMod
         extends Module {
     private static FontMod INSTANCE = new FontMod();
     public Setting<String> fontName = this.register(new Setting<String>("FontName", "Ubuntu", "Name of the font."));
-    public Setting<Integer> fontSize = this.register(new Setting<Integer>("FontSize", Integer.valueOf(16), "Size of the font."));
+    public Setting<Integer> fontSize = this.register(new Setting<Integer>("FontSize", Integer.valueOf(19), "Size of the font."));
     public Setting<Integer> fontStyle = this.register(new Setting<Integer>("FontStyle", Integer.valueOf(0), "Style of the font."));
     public Setting<Boolean> antiAlias = this.register(new Setting<Boolean>("AntiAlias", Boolean.valueOf(true), "Smoother font."));
     public Setting<Boolean> fractionalMetrics = this.register(new Setting<Boolean>("Metrics", Boolean.valueOf(true), "Thinner font."));
