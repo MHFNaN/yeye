@@ -11,7 +11,7 @@ import java.util.Objects;
 public class Bot extends Module {
 
     public Bot() {
-        super("BerryBobusBot", "BerryBobusBot(a chat bot)", Category.BOT, true, false, false);
+        super("BerryBobusBot", "(A skidded proof of concept bot)", Category.BOT, true, false, false);
     }
 
     @SubscribeEvent(priority=EventPriority.HIGHEST)
@@ -34,7 +34,7 @@ public class Bot extends Module {
             } else if (text.equalsIgnoreCase("^commands")) {
                 mc.player.sendChatMessage("commands: ^commands, ^help, ^serverinfo, ^say, ^whisper, ^info, ^ping, ^time, ^players, ^jump, ^kill, ^move");
             } else if (text.equalsIgnoreCase("^info")) {
-                mc.player.sendChatMessage("BerryBobusBot made by ligmaballz with the help of perry, join our discord: https://discord.gg/msyqrUQ2pc");
+                mc.player.sendChatMessage("BerryBobusBot a skidded bot from a ded client");
             } else if (text.equalsIgnoreCase("^help")) {
                 mc.player.sendChatMessage("do ^commands for a list of commands");
             } else if (text.equalsIgnoreCase("^serverinfo")) {
@@ -69,7 +69,7 @@ public class Bot extends Module {
             } else if (text.startsWith("^whisper .")) {
                 mc.player.sendChatMessage("not allowed");
             } else if (text.equalsIgnoreCase("^discord")) {
-                mc.player.sendChatMessage("BerryBobus discord: https://discord.gg/msyqrUQ2pc");
+                mc.player.sendChatMessage("none");
             } else if (text.equalsIgnoreCase("^move")) {
                 mc.player.sendChatMessage("usage: ^move forward");
             } else if (text.equalsIgnoreCase("^move forward")) {
