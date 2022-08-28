@@ -100,7 +100,7 @@ public class GuiCustomMainScreen
         GlStateManager.disableBlend();
         this.mc.getTextureManager().bindTexture(this.resourceLocation);
         GuiCustomMainScreen.drawCompleteImage(-16.0f + this.xOffset, -9.0f + this.yOffset, this.width + 32, this.height + 18);
-        Phobos.textManager.drawStringBig("SKOBOS", (float) this.x - 70, (float) this.y - 15, Color.white.getRGB(), true);
+        Phobos.textManager.drawStringBig("SKOBOS", (float) this.x - 90, (float) this.y - 20, Color.white.getRGB(), true);
         super.drawScreen(mouseX, mouseY, partialTicks);
     }
 
@@ -131,7 +131,7 @@ public class GuiCustomMainScreen
                 Phobos.textManager.drawStringWithShadow(this.displayString, (float) this.x - (float) Phobos.textManager.getStringWidth(this.displayString) / 2.0f, this.y, Color.WHITE.getRGB());
                 if (this.hovered) {
                     RenderUtil.drawLine((float) (this.x - 1) - (float) Phobos.textManager.getStringWidth(this.displayString) / 2.0f, this.y + 2 + Phobos.textManager.getFontHeight(), (float) this.x + (float) Phobos.textManager.getStringWidth(this.displayString) / 2.0f + 1.0f, this.y + 2 + Phobos.textManager.getFontHeight(), 1.0f, Color.WHITE.getRGB());
-                    Phobos.textManager.drawStringSmall("Fuck u nigga get ratted", (float) this.x, (float) this.y - 10, Color.white.getRGB(), false);
+                    Phobos.textManager.drawStringSmall("welcome to the skobois!", (float) this.x, (float) this.y - 10, Color.white.getRGB(), false);
                 }
             }
         }
