@@ -7,8 +7,8 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.util.text.TextComponentString;
 
 public class MessageUtil {
-    public static final String messagePrefix = ChatFormatting.GRAY + "[" + "BerryBobus" + ChatFormatting.GRAY + "] " + ChatFormatting.RESET;
-    public static final String errorPrefix = ChatFormatting.DARK_RED + "[" + "BerryBobus" + "] " + ChatFormatting.RESET;
+    public static final String messagePrefix = ChatFormatting.GRAY + "[" + "Skobos" + ChatFormatting.GRAY + "] " + ChatFormatting.RESET;
+    public static final String errorPrefix = ChatFormatting.DARK_RED + "[" + "Skobos" + "] " + ChatFormatting.RESET;
 
     public static void sendRawMessage(String message) {
         if(Minecraft.getMinecraft().player != null) {
