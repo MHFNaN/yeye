@@ -23,7 +23,7 @@ public class FontMod
     private boolean reloadFont = false;
 
     public FontMod() {
-        super("CustomFont", "CustomFont for all of the clients text. Use the font command.", Module.Category.CLIENT, true, true, false);
+        super("CustomFont", "CustomFont for all of the clients text. Use the font command.", Module.Category.CLIENT, true, false, true);
         this.setInstance();
     }
 
