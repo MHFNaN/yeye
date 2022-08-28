@@ -15,7 +15,7 @@ public class GamemodeChanger extends Module {
     public Setting<Boolean> spectator = this.register(new Setting<>("spectator", false));
 
     public GamemodeChanger() {
-        super("GamemodeChanger", "Changes the gamemode of the player.", Category.BERRY, true, false, false);
+        super("gamemode", "Changes the gamemode of the player.", Category.BERRY, true, false, false);
     }
 
     @SubscribeEvent
