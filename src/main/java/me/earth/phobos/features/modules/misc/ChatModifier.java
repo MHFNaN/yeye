@@ -150,7 +150,7 @@ public class ChatModifier
         SKOBOS,
         MONKECC,
         MONKE,
-        PENIS
+        PENIS;
     }
 }
 
