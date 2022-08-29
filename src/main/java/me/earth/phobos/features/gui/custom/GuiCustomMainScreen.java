@@ -100,7 +100,7 @@ public class GuiCustomMainScreen
         GlStateManager.disableBlend();
         this.mc.getTextureManager().bindTexture(this.resourceLocation);
         GuiCustomMainScreen.drawCompleteImage(-16.0f + this.xOffset, -9.0f + this.yOffset, this.width + 32, this.height + 18);
-        Phobos.textManager.drawStringBig("SKOBOS", (float) this.x - 90, (float) this.y - 20, Color.white.getRGB(), true);
+        Phobos.textManager.drawStringBig("SKOBOS", (float) this.x - 50, (float) this.y - 10, Color.white.getRGB(), true);
         super.drawScreen(mouseX, mouseY, partialTicks);
     }
 
